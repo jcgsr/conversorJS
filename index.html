@@ -1,0 +1,110 @@
+<!--11.03.2020 terminado e publicado em 13.03.2020-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/term.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        
+        <h1>CONVERSOR JAVASCRIPT</h1>
+
+        <h2>Fahrenheit - Celsius</h2>
+
+        <div id="fahr">
+            
+            Digite a temperatura em F°: <input type="number" id="fahrenheit" oninput="fahrenheit(this.value)"
+                onchange="fahrenheit(this.value)">
+
+        </div>
+        <div id="resF">C°.</div>
+        
+        <h2>Celsius - Fahrenheit</h2>
+        <div id="cel">
+            Digite a temperatura em C°: <input type="number" id="celsius" oninput="celsius(this.value)"
+                onchange="celsius(this.value)">
+
+        </div>
+        <div id="resC">F°.</div>
+
+        <h2>Milhas - Kilômetros</h2>
+        <div id="mil">
+            Digite as Milhas: <input type="number" id="milhas" oninput="milhas(this.value)"
+                onchange="milhas(this.value)">
+
+        </div>
+        <div id="resM">km.</div>
+
+        <h2>Kilômetros - Milhas</h2>
+        <div id="KM">
+            Digite os Km: <input type="number" id="km" oninput="km(this.value)" onchange="km(this.value)">
+
+        </div>
+        <div id="resK">mi.</div>
+
+        <h2>Pé - Metro</h2>
+        <div id="pe">
+            Digite os pés: <input type="number" id="ft" oninput="feet(this.value)" onchange="feet(this.value)">
+
+        </div>
+        <div id="resP">m.</div>
+
+        <h2>Metro - Pé</h2>
+        <div id="m">
+            Digite os metros: <input type="number" id="metro" oninput="metro(this.value)" onchange="metro(this.value)">
+
+        </div>
+        <div id="resMetro">ft.</div>
+
+        <h2>Polegada - Centímetro</h2>
+        <div id="pol">
+            Digite as polegadas: <input type="number" id="inch" oninput="inch(this.value)" onchange="inch(this.value)">
+
+        </div>
+        <div id="resI">cm.</div>
+
+        <h2>Centímetro - Polegada</h2>
+        <div id="cent">
+            Digite os centímetros: <input type="number" id="cm" oninput="cm(this.value)" onchange="cm(this.value)">
+
+        </div>
+        <div id="resCm">in.</div>
+
+        <h2>Libra - Kilo</h2>
+        <div id="lib">
+            Digite as libras: <input type="number" id="lb" oninput="lb(this.value)" onchange="lb(this.value)">
+
+        </div>
+        <div id="resL">kg.</div>
+
+        <h2>Kilo - Libra</h2>
+        <div id="quilo">
+            Digite os kilos: <input type="number" id="kg" oninput="kilo(this.value)" onchange="kilo(this.value)">
+
+        </div>
+        <div id="resKg">kg.</div>
+
+    </div>
+    <br>
+    <p id="data"></p>
+
+    
+    <footer>
+        &copy; 2020 - Conversor criado e desenvolvido por <a class="badge badge-info" href="https://jcgsr.github.io/">Jovane Rocha</a>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
